@@ -1,0 +1,32 @@
+{
+  "name": "tailwindcss-spring",
+  "version": "1.0.0",
+  "description": "A plugin for Tailwind CSS that adds spring animations using linear(), define just two parameters and let the plugin do the rest.",
+  "license": "MIT",
+  "main": "./src/index.js",
+  "type": "module",
+  "homepage": "TODO",
+  "scripts": {
+    "test": "vitest"
+  },
+  "keywords": [
+    "tailwindcss",
+    "tailwind",
+    "spring",
+    "animation",
+    "transition",
+    "plugin",
+    "linear()",
+    "bounce"
+  ],
+  "author": "Kevin Grajeda <me@kvin.me>",
+  "devDependencies": {
+    "@csstools/postcss-minify": "^1.1.5",
+    "postcss": "^8.4.40",
+    "tailwindcss": "3.4.7",
+    "vitest": "^2.0.5"
+  },
+  "peerDependencies": {
+    "tailwindcss": ">=3.0.0 || insiders"
+  }
+}

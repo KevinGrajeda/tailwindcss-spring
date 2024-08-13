@@ -1,6 +1,5 @@
 import type { Config } from "tailwindcss"
 import theme from '../src/theme.js'
-import SpringPlugin from '../src/index.js'
 
 const safelist = [...Object.keys(theme.bounceValues).map((key) => `spring-bounce-${key}`), ...Object.keys(theme.perceptualDurationValues).map((key) => `spring-duration-${key}`)]
 
@@ -78,7 +77,7 @@ const config = {
       },
     },
   },
-  plugins: [require("tailwindcss-animate"),SpringPlugin],
+  plugins: [require("tailwindcss-animate"),require("tailwindcss-spring")],
   safelist
 } satisfies Config
 

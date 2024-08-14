@@ -7,8 +7,28 @@ import { cn } from "@/lib/utils";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "TODO",
-  description: "TODO",
+  title: "tailwindcss-spring",
+  description:
+    "A Tailwind CSS plugin that adds spring animations to your project using CSS linear(). Define just two parameters and let the plugin generate the easing curve and the animation duration.",
+  keywords: [
+    "tailwindcss",
+    "tailwind",
+    "spring",
+    "animation",
+    "plugin",
+    "bounce",
+    "linear()",
+    "easing",
+    "curve",
+    "CSS",
+  ],
+  twitter: {
+    title: "tailwindcss-spring",
+    description:
+      "A Tailwind CSS plugin that adds spring animations to your project using CSS linear(). Define just two parameters and let the plugin generate the easing curve and the animation duration.",
+    card: "summary_large_image",
+  },
+  authors: [{ name: "Kevin Grajeda", url: "https://x.com/k_grajeda" }],
 };
 
 export default function RootLayout({

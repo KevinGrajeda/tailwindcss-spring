@@ -27,6 +27,7 @@ export default function SpringEditor() {
               <SelectTrigger
                 id="spring-bounce-"
                 className="h-8 w-[7ch] p-0 px-1 text-xl"
+                aria-label="spring-bounce"
               >
                 <SelectValue />
               </SelectTrigger>
@@ -54,6 +55,7 @@ export default function SpringEditor() {
               <SelectTrigger
                 id="spring-duration"
                 className="h-8 w-[7ch] p-0 px-1 text-xl"
+                aria-label="spring-duration"
               >
                 <SelectValue />
               </SelectTrigger>
@@ -93,7 +95,12 @@ export default function SpringEditor() {
             )}
           >
             Touch me
-            <input type="checkbox" className="hidden" />
+            <input
+              type="checkbox"
+              className="hidden"
+              aria-label="Touch me"
+              id="touch-me"
+            />
           </label>
         </div>
       </article>

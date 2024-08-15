@@ -10,6 +10,7 @@ export default function CopyButton({ text }: { text: string }) {
   return (
     <Button
       className="group mr-2 h-full bg-transparent px-2 text-foreground hover:bg-border/50"
+      aria-label="Copy to clipboard"
       onClick={() => {
         if (navigator.clipboard) {
           navigator.clipboard.writeText(text);

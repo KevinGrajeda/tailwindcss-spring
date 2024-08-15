@@ -9,7 +9,10 @@ export default function Home() {
           tailwindcss-spring
         </h1>
         <div className="rotate-45">
-          <button className="origin-bottom transition-transform spring-bounce-70 spring-duration-150 hover:scale-y-110 active:scale-y-90">
+          <button
+            className="origin-bottom transition-transform spring-bounce-70 spring-duration-150 hover:scale-y-110 active:scale-y-90"
+            aria-label="Interactive spring"
+          >
             <svg
               className="size-8 stroke-red-500"
               width="250"

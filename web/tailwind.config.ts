@@ -1,7 +1,7 @@
 import type { Config } from "tailwindcss"
 import theme from '../src/theme.js'
 
-const safelist = [...Object.keys(theme.bounceValues).map((key) => `spring-bounce-${key}`), ...Object.keys(theme.perceptualDurationValues).map((key) => `spring-duration-${key}`)]
+const safelist = [...Object.keys(theme.bounceValues).map((key) => `spring-bounce-${key}`), ...Object.keys(theme.perceptualDurationValues).map((key) => `spring-duration-${key}`),"dark"]
 
 const config = {
   darkMode: ["class"],

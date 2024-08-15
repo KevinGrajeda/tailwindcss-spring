@@ -106,8 +106,8 @@ module.exports = {
       </p>
       <p className="mt-4">
         Since spring easings often have long settling periods, the perceptual
-        duration isn't used as the actual animation duration. Instead, the real
-        duration is calculated based on the spring-bounce-* value.
+        duration isn{"'"}t used as the actual animation duration. Instead, the
+        real duration is calculated based on the spring-bounce-* value.
       </p>
       <h2 className="mt-8 text-xl font-bold tracking-tight">More info</h2>
       <p className="mt-4">
@@ -115,7 +115,7 @@ module.exports = {
         <a href="https://x.com/k_grajeda" className="underline">
           Kevin Grajeda
         </a>
-        . It's open source, available on{" "}
+        . It{"'"}s open source, available on{" "}
         <a
           href="github.com/kevingrajeda/tailwindcss-spring"
           className="underline"
@@ -129,6 +129,7 @@ module.exports = {
         <a href="https://www.kvin.me/css-springs" className="underline">
           CSS spring easing generator
         </a>
+        .
       </p>
       <p className="mt-4">
         A special thanks to{" "}
@@ -149,7 +150,7 @@ module.exports = {
         >
           his code
         </a>{" "}
-        to calculate the spring easing
+        for spring calculations.
       </p>
     </main>
   );

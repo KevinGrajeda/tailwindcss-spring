@@ -64,14 +64,14 @@ export default function Home() {
       <SpringEditor />
       <h2 className="mt-8 text-xl font-bold tracking-tight">Installation</h2>
       <p className="mt-4">Install the plugin</p>
-      <pre className="mt-4 overflow-x-auto rounded bg-gray-100 p-3">
+      <pre className="mt-4 overflow-x-auto rounded bg-muted p-3">
         <CopyButton text={`npm install tailwindcss-spring`} />
         <code>npm install tailwindcss-spring</code>
       </pre>
       <p className="mt-4">
         Then add the plugin to your tailwind.config.js file:
       </p>
-      <pre className="mt-4 overflow-x-auto rounded bg-gray-100 p-3">
+      <pre className="mt-4 overflow-x-auto rounded bg-muted p-3">
         <code>
           {`// tailwind.config.js
 module.exports = {

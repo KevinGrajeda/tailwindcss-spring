@@ -120,7 +120,7 @@ module.exports = {
         </a>
         . It{"'"}s open source, available on{" "}
         <a
-          href="github.com/kevingrajeda/tailwindcss-spring"
+          href="https://github.com/KevinGrajeda/tailwindcss-spring"
           className="underline"
         >
           GitHub

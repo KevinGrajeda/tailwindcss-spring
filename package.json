@@ -1,11 +1,12 @@
 {
   "name": "tailwindcss-spring",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Tailwind CSS plugin that adds spring animations to your project using CSS linear(). Define just two parameters and let the plugin generate the easing curve and the animation duration.",
   "license": "MIT",
   "main": "./src/index.js",
   "type": "module",
   "homepage": "https://tailwindcss-spring.kvin.me/",
+  "repository": "https://github.com/KevinGrajeda/tailwindcss-spring",
   "scripts": {
     "test": "vitest"
   },

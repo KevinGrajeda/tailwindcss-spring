@@ -61,9 +61,12 @@ export default function Home() {
         </div>
       </div>
       <p className="mt-4">
-        A Tailwind CSS plugin that adds spring animations to your project.
+        A Tailwind CSS plugin that adds spring easings using CSS linear() making
+        it easy to incorporate spring animations into your project.
       </p>
-      <p>Define just two parameters and let the plugin do the rest.</p>
+      <p className="mt-4">
+        Define just two parameters and let the plugin do the rest.
+      </p>
       <SpringEditor />
       <h2 className="mt-8 text-xl font-bold tracking-tight">Installation</h2>
       <p className="mt-4">Install the plugin</p>
